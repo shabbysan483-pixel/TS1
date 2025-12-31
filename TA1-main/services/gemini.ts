@@ -2,7 +2,7 @@
 import { GoogleGenAI, Type, Schema } from "@google/genai";
 import { WordDetails, GrammarQuestion, DifficultyLevel, QuizResult, GrammarAssessment, ExamQuestion, ExamPracticeConfig, TranslationFeedback, WritingFeedback, MatchingPair, WritingQuestion, ErrorCorrectionQuestion, GrammarNuanceQuestion } from "../types";
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY as string });
+const ai = new GoogleGenAI({ apiKey: "AIzaSyAuVJc0H-1MC7tVrOQqZP7rMz26G7X4uZM" });
 
 const modelName = 'gemini-3-flash-preview';
 
